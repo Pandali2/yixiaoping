@@ -1,0 +1,23 @@
+<view>
+  <!-- 头部 -->
+  <view class="head-bg1" mode = "widthFix">
+  </view>
+</view>
+
+<view class="input-view">
+   <form bindsubmit="onSubmit">
+      <input class="input1" type="number" placeholder="请输入学号"></input>
+      <input class="input2" type="text" password placeholder="请输入密码"></input>
+      <!--密码类型，输入隐藏-->
+     
+   </form>
+</view>
+<view>
+   <button class='denglu' type="button" style="width:260px; height:60px;"bindtap="goToPage5">学生登录</button>
+</view>
+
+ <!-- 4 辅助操作 -->
+ <view class="other">
+		    <navigator class="o1" url="/pages/register/register?type=0" >找回密码</navigator>
+		    <navigator class="o2" url="/pages/register/register?type=1">更多帮助</navigator>
+ </view>

@@ -1,0 +1,22 @@
+<!--index.wxml-->
+
+<!--背景图片-->
+<view>
+  <!-- 头部 -->
+  <view class="head-bg" mode = "widthFix">
+  </view>
+<text class="head-text">登录</text>
+</view>
+
+<view>
+  <button class='btn1' type="button" style="width:320px; height:90px;" bindtap="goToPage1">学生登录入口></button>
+</view>
+<view>
+  <button class='btn2' style="width:320px; height:90px;" bindtap="goToPage2">家长登录入口></button>
+</view>
+<view>
+  <button class='btn3' style="width:320px; height:90px;" bindtap="goToPage3">教师登录入口></button>
+</view>
+<view>
+  <button class='btn4' style="width:320px; height:90px;" bindtap="goToPage4">访客登录入口></button>
+</view>

@@ -1,0 +1,8 @@
+.head-bg6{
+    width: 750rpx;
+    height: 1500rpx;
+    background-image: url('https://s3.bmp.ovh/imgs/2023/01/13/c38cecc273dc131a.jpg');
+    background-size: 100% 100%;
+    position:fixed; 
+    z-index: -1;
+  }

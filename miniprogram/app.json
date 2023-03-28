@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/teacher/teacher",
+    "pages/student/student",
+    "pages/parents/parents",
+    "pages/travel/travel",
+    "pages/gostudent/gostudent",
+    "pages/traveler/traveler",
+    "pages/goteacher/goteacher",
+    "pages/connection/connection",
+    "pages/sconnection/sconnection",
+    "pages/dangan/dangan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "艺小瓶",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+
+"usingComponents": {
+  "van-button": "@vant/weapp/button/index"
+},
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+
+
+}

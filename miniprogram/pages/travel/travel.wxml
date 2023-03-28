@@ -1,0 +1,15 @@
+<view>
+  <!-- 头部 -->
+  <view class="head-bg4" mode = "widthFix">
+  </view>
+</view>
+<view class="input-view">
+   <form bindsubmit="onSubmit">
+      <input class="input1" type="number" placeholder="请输入学号"></input>
+      <input class="input2" type="text" password placeholder="请输入密码"></input>
+      <!--密码类型，输入隐藏-->
+     
+      <button class='denglu' type="button" style="width:260px; height:60px" bindtap="">访客登录</button>
+      <!--form表单组件 ，与form-type属性配套使用-->
+   </form>
+</view>

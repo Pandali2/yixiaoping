@@ -1,0 +1,35 @@
+<!--pages/connection/connection.wxml-->
+<view>
+  <!-- 头部 -->
+  <view class="head-bg" mode = "widthFix">
+  </view>
+<text class="head-text">交流圈</text>
+</view>
+<view class="person-list">
+  <view class="list-item">
+    <image class="item-image" src="../../images/person/personal_favorite.png"></image>
+    <text class="item-text">家校交流群</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../images/person/personal_site.png"></image>
+    <text class="item-text">任课教师</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../images/person/personal_sale_record.png"></image>
+    <text class="item-text">作业要求</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../images/person/personal_sale_record.png"></image>
+    <text class="item-text">操作说明</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../images/person/personal_sale_record.png"></image>
+    <text class="item-text">平台介绍</text>
+  </view>
+  <view class="person-line"></view>
+</view>
+

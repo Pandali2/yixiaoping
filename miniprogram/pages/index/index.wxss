@@ -1,0 +1,76 @@
+/**index.wxss**/
+.head-bg{
+  width: 750rpx;
+  height: 1500rpx;
+  background-image: url('https://s3.bmp.ovh/imgs/2023/01/13/0cda83fc26c06f45.jpg');
+  background-size: 100% 100%;
+  position:fixed; 
+  z-index: -1;
+}
+
+.head-text{
+  position: fixed;
+  z-index: 99;
+  text-align: center;
+  font-weight: 650;
+  font-size: 35rpx;
+  left: 340rpx;
+  bottom: 1380rpx;
+  display:fixed;
+  align-items:center;
+  justify-content:center;
+  }
+
+  .button-sp-area{
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+  .btn1 {
+    widows: 150%;
+    top:250rpx;
+    background-color: rgb(245,228,194);
+    color: rgb(12, 11, 11);
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 180rpx;
+    padding-left: 340rpx; 
+  }
+  .btn2 {
+    width:150%;
+    top:350rpx;
+    background-color: rgb(77,132,196);
+    color: rgb(12, 11, 11);
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0rpx;
+   padding-left: 30rpx; 
+  }
+  .btn3 {
+    width:150%;
+    top:450rpx;
+    background-color: rgb(245,228,194);
+    color: rgb(12, 11, 11);
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 180rpx;
+    padding-left: 340rpx;
+  }
+  .btn4 {
+    width:150%;
+    top:550rpx;
+    background-color: rgb(77,132,196);
+    color: rgb(12, 11, 11);
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0rpx;
+    padding-left: 30rpx; 
+  }

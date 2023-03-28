@@ -1,0 +1,55 @@
+<view>
+  <!-- 头部 -->
+  <view class="head-bg7" mode = "widthFix">
+  </view>
+</view>
+
+<view class="container">
+
+  <view class="userinfo">
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  <image src="/miniprogram/image/1.png" class="account-bg">
+  </image>
+</view>
+
+<view class="separate"></view>
+
+<view class="order" catchtap="toOrder">
+  <text class="myorder-text">性别：男</text>
+  <text class="myorderlook-text">班级：初三（2）班</text>
+  <image class="next-image" src="/miniprogram/image/1.png"></image>
+</view>
+<view class="line"></view>
+
+<view class="navs">
+  <block wx:for-items="{{orderItems}}" wx:key="name">
+    <view class="nav-item" catchtap="toOrder" data-type="{{item.name}}" data-typeid="{{item.typeId}}">
+      <image src="{{item.imageurl}}" class="nav-image" />
+      <text>{{item.name}}</text>
+    </view>
+  </block>
+</view>
+
+<view class="separate"></view>
+<view class="person-list">
+  <view class="list-item">
+    <image class="item-image" src="../../images/person/personal_favorite.png"></image>
+    <text class="item-text">喜欢的作品</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../images/person/personal_site.png"></image>
+    <text class="item-text">新的消息列表</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../images/person/personal_sale_record.png"></image>
+    <text class="item-text">电子档案袋</text>
+  </view>
+  
+ 
+</view>
+<view class="separate"></view>
+</view>
+
